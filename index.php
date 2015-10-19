@@ -88,5 +88,7 @@
 				<p>Question Statement</p>
 				<p>Correct Response(s)</p>
 				<p>Explanation</p>
+		<hr>
+		<img src="img/soctrative-eadiag.svg" alt="Socrative ER diagram"/>
 	</body>
 </html>
