@@ -66,25 +66,23 @@
 			<h4>Entity 1: User</h4>
 			<p>User can use many Tests</p>
 				<h5>Attributes include:</h5>
-				<p>user name</p>
-				<p>user ID</p>
-				<p>password</p>
+				<p>Teacher name</p>
+				<p>Teacher ID</p>
+				<p>password (salt/hash) </p>
 				<p>room</p>
 			<h4>Entity 2: Tests</h4>
 			<p>Each Test belongs to only one user</p>
 			<p>Each test can have many questions</p>
 				<h5>Attributes include:</h5>
-				<p>User ID</p>
+				<p>Teacher ID</p>
 				<p>Test name</p>
 				<p>Test ID</p>
-				<p>Number of Questons</p>
-				<p>Array of Question Names</p>
 			<h4>Entity 3:  Questions</h4>
 			<p>Each question belongs to only 1 user and 1 test</p>
 				<h5>Attributes include:</h5>
-				<p>User ID</p>
+				<p>Teacher ID</p>
 				<p>Test ID</p>
-				<p>Question Type</p>
+				<p>Question ID</p>
 				<p>Question Statement</p>
 				<p>Correct Response(s)</p>
 				<p>Explanation</p>
