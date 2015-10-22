@@ -94,7 +94,7 @@ public function __construct($newTeacherId, $newTeacherName, $newSalt, $newHash, 
 		}
 
 		// verify the teacher id is valid
-		$newTeacherId = filter_var($newTeacherId, FILTER_VALIdATE_INT);
+		$newTeacherId = filter_var($newTeacherId, FILTER_VALIDATE_INT);
 		if($newTeacherId === false) {
 			throw(new InvalidArgumentException("teacher id is not a valid integer"));
 		}
