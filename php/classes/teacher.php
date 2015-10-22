@@ -236,8 +236,8 @@ public function setRoom($newRoom) {
 		throw(new RangeException("classroom too large"));
 	}
 
-	// store classroom
-	$this->Room = $newRoom;
+	// store the name of the classroom
+	$this->room = $newRoom;
 }
 
 /**
